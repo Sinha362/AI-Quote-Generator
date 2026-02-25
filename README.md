@@ -38,22 +38,28 @@ Built using **React (Frontend)**, **FastAPI (Backend)**, and **Google Gemini API
 
 ## 📂 Project Structure
 
+```
 AI-quote-generator/
 │
 ├── backend/
-│ ├── main.py
-│ ├── services/
-│ ├── requirements.txt
-│ └── .env (not included in repo)
+│   ├── main.py
+│   ├── services/
+│   │   └── quote_service.py
+│   ├── requirements.txt
+│   └── .env              # Environment variables (not included in repo)
 │
 ├── frontend/
-│ ├── src/
-│ ├── package.json
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── api.js
+│   ├── package.json
+│   └── node_modules/     # Not pushed to GitHub
 │
+├── .gitignore
 └── README.md
-
-
----
+```
 
 # ⚙️ How To Run Locally
 
