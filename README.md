@@ -1,3 +1,7 @@
+## 📸 Screenshot
+
+![AI Quote Generator Screenshot](assets/Screenshot.png)
+
 # 🚀 AI Quote Generator
 
 An AI-powered full-stack web application that generates inspirational quotes based on user-provided keywords.
